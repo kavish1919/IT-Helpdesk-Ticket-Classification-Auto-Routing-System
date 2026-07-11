@@ -255,7 +255,6 @@ it-ticket-classifier/
 │   └── streamlit_app.py     interactive demo
 ├── requirements.txt
 ├── README.md
-├── SUMMARY.md        resume-ready bullet points
 └── .gitignore
 ```
 
