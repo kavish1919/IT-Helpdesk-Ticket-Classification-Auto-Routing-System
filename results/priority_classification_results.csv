@@ -1,0 +1,4 @@
+,Model,Accuracy,Macro_F1,Weighted_F1
+1,Gradient Boosting TF-IDF,0.585,0.4999,0.5718
+2,Random Forest TF-IDF,0.5833,0.4527,0.5587
+3,Logistic Regression TF-IDF,0.4783,0.4236,0.4928

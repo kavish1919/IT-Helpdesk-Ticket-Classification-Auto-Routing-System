@@ -1,0 +1,35 @@
+# ============================================================
+# IT Helpdesk Ticket Classifier — .gitignore
+# ============================================================
+
+# --- Virtual environment ---
+.venv/
+venv/
+env/
+
+# --- Python cache ---
+__pycache__/
+*.py[cod]
+*.pyo
+
+# --- Jupyter checkpoints ---
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# --- Raw data & models (included in git because total size is < 10MB, enabling instant Streamlit demo deployment) ---
+# data/raw/*.csv
+# models/*.joblib
+# models/*.pt
+# models/*.pkl
+# models/*.model
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- IDE ---
+.vscode/
+.idea/
+
+# --- Environment variables ---
+.env

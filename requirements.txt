@@ -1,0 +1,36 @@
+# ============================================================
+# IT Helpdesk Ticket Classifier — Python Dependencies
+# Install with:  pip install -r requirements.txt
+# Python version tested: 3.10 / 3.11
+# ============================================================
+
+# --- Core data handling ---
+pandas==2.2.*
+numpy==1.26.*
+
+# --- NLP preprocessing ---
+nltk==3.8.*
+
+# --- Feature extraction & classical ML ---
+scikit-learn==1.4.*
+gensim==4.3.*
+
+# --- Deep learning ---
+# CPU-only build — sufficient for this project size (~4 k rows)
+# For GPU: replace with the appropriate CUDA wheel from pytorch.org
+torch==2.3.*
+
+# --- Visualization ---
+matplotlib==3.8.*
+seaborn==0.13.*
+wordcloud==1.9.*
+
+# --- Notebook environment ---
+jupyter==1.0.*
+ipykernel==6.29.*
+
+# --- Model persistence ---
+joblib==1.4.*
+
+# --- Optional: Streamlit demo ---
+streamlit==1.35.*

@@ -1,0 +1,16 @@
+,ticket_text,category,priority,predicted_resolution_hours,assigned_team,sla_target_hours,sla_breach_risk
+1,"vpn not connecting since morning, getting error 401, cannot work at all",Network,Critical,1.4,Infrastructure Team,4,False
+2,"internet down on entire 3rd floor, 20 users affected, please fix urgently",Network,High,7.6,Infrastructure Team,8,False
+3,wifi keeps dropping every 5 mins in conference room A,Network,Medium,16.3,Infrastructure Team,24,False
+4,laptop screen flickering and goes black randomly during meetings,Hardware,Medium,27.2,Hardware Support Team,24,True
+5,"computer not turning on at all, no lights, no fan, no response",Hardware,Medium,29.0,Hardware Support Team,24,True
+6,"outlook crashes whenever i open attachments, very frustrating",Software,Medium,43.4,Application Support Team,24,True
+7,"windows update stuck at 45 percent for 3 hours, machine is unusable",Software,Medium,40.3,Application Support Team,24,True
+8,teams stuck on grey screen cannot join the standup meeting,Software,Low,44.9,Application Support Team,72,False
+9,locked out of my account after 5 failed attempts this morning,Access/Login,Medium,9.3,Identity & Access Management Team,24,False
+10,new joiner Priya needs SAP access and email setup by monday,Access/Login,Medium,9.3,Identity & Access Management Team,24,False
+11,forgot my windows password and machine is completely locked,Access/Login,Critical,1.7,Identity & Access Management Team,4,False
+12,"sent emails stuck in outbox since yesterday, not delivering to anyone",Email,Medium,20.8,Messaging & Collaboration Team,24,False
+13,outlook not receiving any emails since the server maintenance last night,Email,Medium,19.4,Messaging & Collaboration Team,24,False
+14,"production database PROD_DB is not accepting connections, application is down",Database,Critical,20.3,Database Administration Team,4,True
+15,"sql query timing out after 10 seconds on SRV-DB01, blocking reports",Database,Low,63.4,Database Administration Team,72,False

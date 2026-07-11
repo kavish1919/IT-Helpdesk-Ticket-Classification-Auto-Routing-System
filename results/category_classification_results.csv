@@ -1,0 +1,7 @@
+,Model,Features,Accuracy,Macro_F1,Weighted_F1
+1,Logistic Regression,TF-IDF,1.0,1.0,1.0
+2,Random Forest,TF-IDF,0.9967,0.9964,0.9967
+3,LSTM,Random Init,0.9967,0.9954,0.9966
+4,LSTM,W2V Init,0.9967,0.995,0.9966
+5,Random Forest,Word2Vec,0.93,0.923,0.93
+6,Logistic Regression,Word2Vec,0.7967,0.7829,0.7976
