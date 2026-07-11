@@ -1,0 +1,12 @@
+-r requirements.txt
+
+# --- Deep learning (for running PyTorch LSTM notebook baseline) ---
+torch>=2.3.0
+
+# --- Feature extraction (for running Word2Vec notebook baseline) ---
+gensim>=4.3.0
+
+# --- Notebook environment ---
+jupyter>=1.0.0
+ipykernel>=6.29.0
+wordcloud>=1.9.0

@@ -41,7 +41,6 @@ _STOPWORDS = set(stopwords.words('english'))
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
-from gensim.models import Word2Vec
 
 
 # ═══════════════════════════════════════════════════════════════════════════════
@@ -136,7 +135,7 @@ def build_tfidf(train_texts, val_texts, test_texts,
 #  WORD2VEC FEATURE EXTRACTION
 # ═══════════════════════════════════════════════════════════════════════════════
 
-def _avg_vector(tokens: list, model: Word2Vec, vector_size: int) -> np.ndarray:
+def _avg_vector(tokens: list, model: 'Word2Vec', vector_size: int) -> np.ndarray:
     """
     Compute the average Word2Vec vector for a list of tokens.
     OOV (out-of-vocabulary) tokens are ignored.
@@ -176,6 +175,7 @@ def build_w2v(train_texts, val_texts, test_texts,
     X_train_w2v, X_val_w2v, X_test_w2v : ndarray  (n_samples x vector_size)
     w2v_model                           : trained Word2Vec object
     """
+    from gensim.models import Word2Vec
     # Tokenise (split on whitespace — text is already cleaned)
     train_tok = [t.split() for t in train_texts]
     val_tok   = [t.split() for t in val_texts]
