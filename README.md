@@ -1,8 +1,5 @@
 # IT Helpdesk Ticket Classification & Auto-Routing System
 
-> A portfolio-quality machine learning project that simulates enterprise ITSM automation —  
-> the kind of internal tooling built by IT services companies like Infosys and Cognizant.
-
 ---
 
 ## Problem Statement
@@ -266,4 +263,4 @@ it-ticket-classifier/
 
 ## Author
 
-Final-year B.Tech student | Portfolio project for IT services industry applications
+Kavish Bishnoi | Final-year B.Tech student | Portfolio project for IT services industry applications
